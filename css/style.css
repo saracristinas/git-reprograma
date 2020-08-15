@@ -1,0 +1,102 @@
+/*seletor {
+    propriedade: valor;
+} */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Varta', sans-serif;
+    line-height: 2rem;
+}
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner {
+
+    height: 90vh;
+    text-align: center;
+    padding-top: 16rem;
+    color: rgb(234, 235, 233);
+    background: url(../img/WhatsApp\ Image\ 2020-07-27\ at\ 16.13.40\ \(1\).jpeg) center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding-top: 45vh;
+}
+
+.banner_titulo {
+    font-size: 5rem;
+    margin: 2%
+}
+.banner_descricao {
+    font-size:  1.5rem;
+}
+.botao {
+    border-radius: 2rem;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-width: 0;
+
+}
+.botao-branco {
+background-color: rgba(50, 54, 54, 0.534);
+color:  rgb(218, 219, 217);
+border-width: 0;
+}
+.botao-roxo {
+    background-color: rgb(132, 139, 37);
+    color: white;
+}
+.container {
+    padding: 2rem;
+    margin: 5 auto;
+    max-width: 100%;
+    text-align: center
+    
+}
+
+
+.sobre_titulo {
+    text-align: center;
+    margin-inline-end: 0px;
+    margin: 30px;
+}
+.sobre_descricao, .sobre_habilidades {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-left: 0rem;
+    text-align: justify;
+    margin-right: 80px;
+    padding: 30px;
+}
+.sobre_habilidades {
+    margin-left: 40px;
+}
+.footer {
+    text-align: center;
+    padding: 2rem;
+    max-width:1090px ;
+    margin: 0 auto;
+}
+.redes-sociais_link {
+    display: inline-block;
+    background-color: rgb(132, 139, 37);
+    width: 20%;
+    height:180px ;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    color: rgb(10, 9, 9);
+}
+.redes-sociais_img {
+        height: 50px;
+}
+
